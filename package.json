@@ -1,0 +1,19 @@
+{
+  "name": "shopping-listapp",
+  "version": "1.0.0",
+  "description": "쇼핑 리스트 웹 앱 (HTML + Playwright 테스트)",
+  "main": "shopping-list.test.js",
+  "scripts": {
+    "test": "node shopping-list.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  },
+  "dependencies": {
+    "playwright-core": "^1.60.0"
+  }
+}

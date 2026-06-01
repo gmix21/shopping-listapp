@@ -1,7 +1,7 @@
 const { chromium } = require('playwright');
 const path = require('path');
 
-const FILE_URL = 'file:///' + path.resolve(__dirname, 'shopping-list.html').replace(/\\/g, '/');
+const FILE_URL = 'file:///' + path.resolve(__dirname, 'index.html').replace(/\\/g, '/');
 
 let passed = 0;
 let failed = 0;
